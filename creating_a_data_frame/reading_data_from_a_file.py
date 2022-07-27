@@ -14,6 +14,7 @@ path = "./creating_a_data_frame/"
 
 sales = pd.read_csv(path + "sales.csv")
 
+# head method  returns the first five rows of the DataFrame.
 print(sales.head())
 
 
